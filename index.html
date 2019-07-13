@@ -18,7 +18,7 @@
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">About me</a>
+                            <a href="#about_me">About me</a>
                         </li>
                         <li>
                             <a href="#">My projects</a>
@@ -39,37 +39,39 @@
                 <p>I'm Nice Nicole Ininahazwe, i'm thriving to become a great and good developer in creating awesome,usable and professional websites using best practises and standards guidelines offered by WeCode Moringa School.
                     I'm a future software engineer graduate. I decided to take a class on programming for improving my skills and my capabilities in web and software development areas and for me to achieve to do something real.
                     Languages i use mostly when doing my projects are:
-                    <ul>
-                        <li>HTML.</li>
-                        <li>CSS.</li>
-                        <li>JavaScript.</li>
-                    </ul>
+                    
                 </p>
           </div>
 
       
-
+          <h1>My projects</h1>
           <div id= "my_projects">
-          <img width="300px" src="images/restaurant.png">
-          <img width="400px" src="images/universityWebsite.png">
+              
+              <p id="restaurant_project">
+                <img width="300px" src="images/restaurant.png">
+                <a href="https://repl.it/student/submissions/7057858">restaurant website</a>
+              </p>
+              <p id="university_website">
+              <img width="400px" src="images/universityWebsite.png">
+              <a href="https://repl.it/student/submissions/7296281">university website</a>
+              </p>
+            </div>
 
-          </div>
-
-          <div id="contact us">
+          <div id="contact_us">
                 <form>
                     <h1>Contact us</h1>
                     <input type="text" name="message" id="username" placeholder="Enter username">
-                    <input type="email" name="emailmessage" id="adEmail" placeholder="Enter email">
+                    <input type="email" name="emailmessage" id="adEmail" placeholder="Enter email"></br>
                     <textarea rows="5" cols="20" name="message" placeholder="enter your message..." ></textarea>
                 </form>
 
-                <input type="submit" onclick="myFunction();"><br/>
+                <input type="submit" class="button" onclick="myFunction();"><br/>
                 <p><span id='notification'></span></p>
                 <script>
 
                     function myFunction() {
 
-                        document.getElementById('notification').innerHTML = (username.value + ", Your message has been sent, we will reach to your email for further information.");       
+                        document.getElementById('notification').innerHTML = (username.value + ", Your message has been sent, we will reach you using email you provided for further information.");       
                                         
                     }
                 </script>
