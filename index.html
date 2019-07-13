@@ -2,49 +2,78 @@
 <html>
     <head>
         <title>Homepage</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
-
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">My projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        
+        <div class="left_side">
+            <strong>Nice Nicole Ininahazwe</strong>
+            <img src="images/pic.png">
+            <h1>Hi,I'm Nice Nicole Ininahazwe</h1>
+            <h2><em>Web designer and developer</em></h2>
 
-      <div class="description">
-          <Strong>Nice Nicole Ininahazwe</Strong>
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About me</a>
+                        </li>
+                        <li>
+                            <a href="#">My projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
 
-          <img src="images/pic.png">
-          <h1>Hi,I'm Nice Nicole Ininahazwe</h1>
-          <h2><em>Web designer and developer</em></h2>
-      </div>
+      <div class="right_side">
+          <img width="100%" src="images/pic4.jpg">
+          <div id="about_me">
+                <h1>About me</h1>
+
+                <p>I'm Nice Nicole Ininahazwe, i'm thriving to become a great and good developer in creating awesome,usable and professional websites using best practises and standards guidelines offered by WeCode Moringa School.
+                    I'm a future software engineer graduate. I decided to take a class on programming for improving my skills and my capabilities in web and software development areas and for me to achieve to do something real.
+                    Languages i use mostly when doing my projects are:
+                    <ul>
+                        <li>HTML.</li>
+                        <li>CSS.</li>
+                        <li>JavaScript.</li>
+                    </ul>
+                </p>
+          </div>
+
       
-      <div class="about_me">
-          <h1>About me</h1>
 
-          <p>I'm Nice Nicole Ininahazwe, i'm thriving to become a great and good developer in creating awesome,usable and professional websites using best practises and standards guidelines offered by WeCode Moringa School.
-              I'm a future software engineer graduate. I decided to take a class on programming for improving my skills and my capabilities in web and software development areas and for me to achieve to do something real.
-              Languages i use mostly when doing my projects are:
-              <ul>
-                  <li>HTML.</li>
-                  <li>CSS.</li>
-                  <li>JavaScript.</li>
-              </ul>
-          </p>
+          <div id= "my_projects">
+          <img width="300px" src="images/restaurant.png">
+          <img width="400px" src="images/universityWebsite.png">
 
-      </div>
+          </div>
 
-      <div class= "my_projects">
-          <img src="images/restaurant.png">
-          <img src="images/universityWebsite.png">
+          <div id="contact us">
+                <form>
+                    <h1>Contact us</h1>
+                    <input type="text" name="message" id="username" placeholder="Enter username">
+                    <input type="email" name="emailmessage" id="adEmail" placeholder="Enter email">
+                    <textarea rows="5" cols="20" name="message" placeholder="enter your message..." ></textarea>
+                </form>
 
-      </div>
+                <input type="submit" onclick="myFunction();"><br/>
+                <p><span id='notification'></span></p>
+                <script>
+
+                    function myFunction() {
+
+                        document.getElementById('notification').innerHTML = (username.value + ", Your message has been sent, we will reach to your email for further information.");       
+                                        
+                    }
+                </script>
+          </div>
+      </div> 
     </body>
 </html>
