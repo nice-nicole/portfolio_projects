@@ -1,16 +1,66 @@
-main>img{
+html{
+    background-color: white;
+    
+}
+body{
+    background-color:#e099ff;
+    
+    
+}
+.left_side>img{
     width:18%;
     border:2px solid white;
     border-radius: 50%;
     margin:0 10px 0;
 }
-main{
+.left_side{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     float:left;
-    
+    /* position: fixed;
+    overflow: initial; */
 }
-.right_part{
-    
+.right_side{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: auto;
+
 }
+#about_me, #my_projects{
+    overflow: auto;
+ }
+ #contact_us{
+     padding-left:50px;
+     box-shadow:0 2px 4px #e099ff, 0 2px 4px #e099ff ;
+     margin:5%;
+ }
+ input[type=text], input[type=email], textarea{
+     width: 70%;
+     padding:15px;
+     margin:5px 0 22px 0;
+     display: inline-block;
+     border:none;
+     background-color:#f1f1f1;
+     text-align: center;
+ }
+
+input[type=text]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+.button {
+    background-color: #e099ff;
+    border: none;
+    color: white;
+    padding: 15px 25px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin:15px 50px 15px 50px
+       } 
+
