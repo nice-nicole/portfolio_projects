@@ -59,18 +59,19 @@ h1{
     width: 18em; */
     /* z-index: 10000; */
 }
+
 #about_me, #my_projects{
     overflow: auto;
  }
  #about_me{
     text-align: center;
     padding: 5px;
-    font-size:20px;
+    font-size:25px;
  }
 
  #about_me,#contact_us{
      padding-left:50px;
-     box-shadow:0 2px 4px #e099ff, 0 2px 4px #e099ff ;
+     box-shadow:0px 2px 4px #e099ff, 0px 2px 4px #e099ff ;
      margin:5%;
  }
 #my_projects{
@@ -109,7 +110,6 @@ input[type=text]:focus, input[type=email]:focus {
 .button {
     background-color: #e099ff;
     border: none;
-    color: white;
     padding: 15px 25px 5px 5px;
     text-align: center;
     text-decoration: none;
@@ -117,5 +117,5 @@ input[type=text]:focus, input[type=email]:focus {
     font-size: 16px;
     cursor: pointer;
     margin:15px 50px 15px 50px
-       } 
+} 
 
