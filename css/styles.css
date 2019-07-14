@@ -14,12 +14,18 @@ nav>ul>li>a{
     text-decoration:none;
     padding: 18px;
     display:block;
+
 }
-h1{
+nav>ul>li>a:hover{
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+h1,h2{
     color:#e099ff;
     opacity: 0.9%;
     text-align: center;
-    
+    font-style: georgia, helvetica;
+    text-shadow:2px 2px black;
 }
 .left_side>img{
     height:20%;
@@ -44,6 +50,8 @@ h1{
     width: 18em;
     z-index: 10000;
     text-align: center;
+    color: white;
+    
 }
 .right_side{
     display: flex;
@@ -81,6 +89,7 @@ h1{
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 40px;
+    
  }
 
  #about_me,#contact_us{
