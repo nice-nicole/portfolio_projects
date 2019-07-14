@@ -32,7 +32,7 @@ h1{
     display: flex;
     flex-direction: column;
     padding: 2.5em 2.5em 0.5em 2.5em;
-    background-color: #e099ff;
+    /* background-color: #e099ff; */
     cursor: default;
     height: 100vh;
     left: 0;
@@ -53,14 +53,34 @@ h1{
     right:0;
     margin-left: 30%;
 }
+#home_section{
+    background-image: url("../images/pic4.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:900px;
+    height:500px;
+    margin-left:2px;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url("../images/pic10.jpg");
+    }
+    50%{
+        background: url("../images/pic3.jpg");
+    }
+    75%{
+        background: url("../images/pic2.jpg");
+    }
+    100%{
+        background: url("../images/pic4.jpg");
+    }
+}
 
-#about_me, #my_projects{
-    overflow: auto;
- }
  #about_me{
-    text-align: center;
-    padding: 5px;
-    font-size:25px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
  }
 
  #about_me,#contact_us{
@@ -71,6 +91,8 @@ h1{
 #my_projects{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
 }
 #restaurant_project>a:hover,#university_website>a:hover{
     background-color: #e099ff;
@@ -104,12 +126,15 @@ input[type=text]:focus, input[type=email]:focus {
 .button {
     background-color: #e099ff;
     border: none;
-    padding: 15px 25px 5px 5px;
+    padding: 15px 30px 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin:15px 50px 15px 50px;
+    margin:15px 170px 15px 170px;
 } 
+#notification{
+    color:#e099ff
+}
 
