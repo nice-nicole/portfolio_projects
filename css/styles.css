@@ -4,7 +4,7 @@ html{
 }
 body{
     background-color:#e099ff;
-    font-style: georgia, helvetica;
+    font-family: 'Josefin Sans', sans-serif;
     
 }
 nav>ul>li{
@@ -24,7 +24,7 @@ h1,h2{
     color:#e099ff;
     opacity: 0.9%;
     text-align: center;
-    font-style: georgia, helvetica;
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow:2px 2px black;
 }
 .left_side>img{
