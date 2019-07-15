@@ -3,7 +3,7 @@
 #### By **Nicole**
 ## Description
 Portfolio project intends to describe myself and showing screenshots of projects that i've already done related to the web development.
-My site is published at https://nice-nicole.github.io/portfolio_projects/.
+My site is published at  https://nice-nicole.github.io/portfolio_projects/.
 ## Setup/Installation Requirements
 * Connect your machine to the internet
 * Open any browser.
