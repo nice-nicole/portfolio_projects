@@ -71,13 +71,13 @@ h1,h2{
 }
 @keyframes slide{
     25%{
-        background: url("../images/pic10.jpg");
+        background: url("../images/pic4.jpg");
     }
     50%{
         background: url("../images/pic3.jpg");
     }
     75%{
-        background: url("../images/pic2.jpg");
+        background: url("../images/pic4.jpg");
     }
     100%{
         background: url("../images/pic4.jpg");
