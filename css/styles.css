@@ -7,6 +7,11 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     
 }
+
+#img{
+    margin-top: 40%;
+    margin-left: 50%;
+}
 nav>ul>li{
     display:block;
 }
@@ -24,7 +29,6 @@ h1,h2{
     color:#e099ff;
     opacity: 0.9%;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
     text-shadow:2px 2px black;
 }
 .left_side>img{
@@ -60,7 +64,7 @@ h1,h2{
     background-image: url("../images/pic4.jpg");
     background-size:cover;
     background-repeat:no-repeat;
-    width:900px;
+    width:1000px;
     height:600px;
     margin-left:2px;
     animation: slide 20s infinite;
@@ -80,14 +84,15 @@ h1,h2{
     }
 }
 
- #about_me{
+ #about_me,#skills{
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 50px;
+    margin-bottom: 5%;
     
  }
 
- #about_me,#contact_us{
+ #about_me{
      padding-left:50px;
      box-shadow:0px 2px 4px #e099ff, 0px 2px 4px #e099ff ;
      margin:5%;
@@ -96,27 +101,24 @@ h1,h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin-left: 10%; */
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
 #project_screenshots2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin-left: 10%; */
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
-/* #restaurant_project>a:hover,#university_website>a:hover{
-    background-color: #e099ff;
+
+#project_screenshots3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
 }
-#restaurant_project>a,#university_website>a{
-    text-decoration:none;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:20px;
-}
- #restaurant_project, #university_website{
-     display: flex;
-     flex-direction:column;
- } */
+
 
  input[type=text], input[type=email], textarea{
      width: 70%;
@@ -133,20 +135,7 @@ input[type=text]:focus, input[type=email]:focus {
     outline: none;
   }
   
-.button {
-    background-color: #e099ff;
-    border: none;
-    padding: 15px 30px 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    margin:15px 170px 15px 170px;
-} 
-#notification{
-    color:#1b0922;
-}
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -162,3 +151,20 @@ input[type=text]:focus, input[type=email]:focus {
     padding: 2px 16px;
   }
 
+  #skills1, #skills2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e099ff;
+    color: white;
+    text-align: center;
+}
